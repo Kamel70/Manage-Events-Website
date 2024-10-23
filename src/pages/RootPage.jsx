@@ -3,7 +3,7 @@ import Header from "../components/Header";
 
 export default function RootPage() {
   return (
-    <div className="bg-slate-900">
+    <div>
       <Header />
       <Outlet />
     </div>

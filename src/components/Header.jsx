@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="flex justify-evenly bg-slate-900 p-6">
+    <header className="container flex justify-evenly bg-blue-200 p-6 mx-auto my-2">
       <NavLink to="/">
         <Button title="Home" />
       </NavLink>
