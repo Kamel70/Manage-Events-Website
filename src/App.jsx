@@ -17,11 +17,19 @@ function App() {
         },
         {
           path: "events",
-          element: <EventsPage />,
           children: [
-            { index: true },
-            { path: "add-event", element: <AddEvent /> },
-            { path: "edit-event", element: <EditEvent /> },
+            {
+              index: true,
+              element: <EventsPage />,
+            },
+            {
+              path: "add-event",
+              element: <AddEvent />,
+            },
+            {
+              path: "edit-event",
+              element: <EditEvent />,
+            },
           ],
         },
       ],
